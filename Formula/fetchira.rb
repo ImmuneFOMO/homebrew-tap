@@ -1,25 +1,25 @@
 class Fetchira < Formula
   desc "Quota-aware web-search/scrape MCP server and CLI that routes across free provider tiers"
   homepage "https://github.com/ImmuneFOMO/fetchira"
-  version "0.1.17"
+  version "0.1.18"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.17/fetchira-aarch64-apple-darwin.tar.xz"
-      sha256 "f636a605b0e563aa2eaace94bab903f247b8917c3aea4552d39edf2951a2fe7a"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.18/fetchira-aarch64-apple-darwin.tar.xz"
+      sha256 "55ed23da52cea5671952aace1ee0dfd5206f0ee7ef9a7e459acfafb724dc3f5a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.17/fetchira-x86_64-apple-darwin.tar.xz"
-      sha256 "f62727134086e19c03879179b4ebaaab70d32dd1337a1b973fb042c9a0ba2854"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.18/fetchira-x86_64-apple-darwin.tar.xz"
+      sha256 "03f74e87e71412d9878427febb3d66de0cfa5f78dd7f2e9294e7edf5cb5c9de0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.17/fetchira-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "53de8cef029e3d2c47f6eae93f374bfebfbffe24f7f47e1a14ad75f4e9b0f397"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.18/fetchira-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f0d0b23876510e7583512267473bc2c32cc39c53494d1eed30794663139d47bc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.17/fetchira-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b691c5524da0c6ba2f5259524fac8112c6a68fd952b17a5853d4d9562707cef3"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.18/fetchira-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3add666acc343bc932ba89f476f5a83104339f00032326cef98265434dd5571a"
     end
   end
   license "Apache-2.0"

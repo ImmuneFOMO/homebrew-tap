@@ -1,25 +1,25 @@
 class Fetchira < Formula
-  desc "Quota-aware web-search/scrape MCP server and CLI that routes across free provider tiers"
-  homepage "https://github.com/ImmuneFOMO/fetchira"
-  version "0.1.21"
+  desc "Quota-aware MCP server and CLI for web search, page reading and deep research across many providers"
+  homepage "https://fetchira.dev"
+  version "0.1.23"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.21/fetchira-aarch64-apple-darwin.tar.xz"
-      sha256 "7d71003c6c4110a5b60a3766ced2b15dade0b6d97803f49eb3b2f51e784ef4be"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.23/fetchira-aarch64-apple-darwin.tar.xz"
+      sha256 "bc9584022fb6d638215dad53cd5090a887e13b3af39dc9f0eabf8a7203aa16c8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.21/fetchira-x86_64-apple-darwin.tar.xz"
-      sha256 "10626b4f88a189e714886b27d6046f2ebf218ca6e33419fd78be6d75c94ed928"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.23/fetchira-x86_64-apple-darwin.tar.xz"
+      sha256 "c47eeb5393504716ca937bb2a4874c9f3bd0b9bd53b5ba6d98dcd514b9430070"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.21/fetchira-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "96927d68055765dd5947cc51377cb345a30a87f3e041204c4fffb02342cc8cb2"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.23/fetchira-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c24dff27757c38b3ac0fa4e9a8299954a3d6893f39094235642e3e87fb7eefd2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.21/fetchira-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "37e3411004b0af4ff8fe179d466f9459486f803fe9f2859be6e80454b8c90119"
+      url "https://github.com/ImmuneFOMO/fetchira/releases/download/v0.1.23/fetchira-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "440e0b8448aefcea774ea0e75a76a951fc5ea17d1ac5ad0b3d7b020b98a83eda"
     end
   end
   license "Apache-2.0"
